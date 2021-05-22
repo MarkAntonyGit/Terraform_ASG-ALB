@@ -44,6 +44,11 @@ terraform plan
 terraform apply
 ```
 
+##### Update Website DNS Records
+
+-Once the terraform apply is completed you will get the load balancer public DNS from the outputs. Do update the same as a CNAME record for your desired domain or if you are using AWS Route 53, you can point the domain to ALB with an A record alias.  
+
+
 > sample screenshots
 
 -tfvars file
@@ -59,3 +64,4 @@ terraform apply
 ![](https://i.ibb.co/HHz8GBR/git3.jpg)
 ![](https://i.ibb.co/sChP1L6/git2.jpg)
 
+###### Do share and contact me @ markantony.alenchery@gmail.com for any modifications or doubts. 
