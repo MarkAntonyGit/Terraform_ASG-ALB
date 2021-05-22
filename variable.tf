@@ -1,0 +1,9 @@
+variable "region" {}
+variable "access_key" {}
+variable "secret_key" {}
+variable "project" {}
+variable "vpc_cidr" {}
+variable "acm" {}
+variable "ami" {}
+variable "ec2-type" {}
+variable "asg_count" {}
